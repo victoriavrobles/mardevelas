@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mar de Velas</title>
     <link rel="shortcut icon" href="./assets/img/favicon.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
 
 </head>
 <body class="contenedor">
@@ -41,28 +42,28 @@
 
     <main>
     <section class="productos">
-        <div class="producto">
+        <div class="producto" data-aos="flip-right">
             <img class="producto_img" src="./assets/img/vela1.jpg" alt="">
             <h3 class="producto_titulo">Vela</h3>
             <p>Aromas: Vainilla, Café, Limón y Chocolate.</p>
             <button class="boton">Comprar</button>
         </div>
     
-        <div class="producto">
+        <div class="producto" data-aos="flip-right">
             <img class="producto_img" src="./assets/img/vela2.jpg" alt="">
             <h3 class="producto_titulo">Vela</h3>
             <p>Aromas: Vainilla y Chocolate.</p>
             <button class="boton">Comprar</button>
         </div>
 
-        <div class="producto">
+        <div class="producto" data-aos="flip-right">
             <img class="producto_img" src="./assets/img/vela3.jpg" alt="">
             <h3 class="producto_titulo">Vela</h3>
             <p>Aromas: Vainilla, Café, Limón y Chocolate.</p>
             <button class="boton">Comprar</button>
         </div>
     
-        <div class="producto">
+        <div class="producto" data-aos="flip-right">
             <img class="producto_img" src="./assets/img/vela4.jpg" alt="">
             <h3 class="producto_titulo">Vela</h3>
             <p>Aromas: Vainilla y Chocolate.</p>
@@ -81,5 +82,9 @@
         </section>
     </footer>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
